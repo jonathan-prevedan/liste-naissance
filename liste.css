@@ -1,0 +1,125 @@
+
+html {
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    background: rgb(213, 191, 238);
+    color: black;
+}
+body {
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+header {
+    color: rgb(189, 0, 0);
+    background-image:url("bgtete.jpg");
+    text-align: center;
+    background-size: 100%;
+    background-position-x: center ;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    border-radius:0px 0px 10px 10px;
+   
+  
+}
+
+p {
+    font-family: cursive;
+    margin: 0.5em 0;
+}
+
+
+
+.content {
+    padding: 1em;
+    margin: 1.5em 12.5%;
+    background: white;
+    font-family: "Noto Sans";
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+    border:5px solid white;
+    border-radius: 7%;
+    -webkit-box-shadow: 35px -16px 5px 0px rgb(51, 233, 121);
+    box-shadow: 35px -16px 5px 0px rgb(88, 191, 152);
+    box-shadow: 35px -16px 5px 0px rgb(11, 168, 142);
+  
+}
+.content a {
+    text-decoration: none;
+    transition: color 0.25s ease-out;
+    color: #5a9cc7;
+}
+.content a:hover {
+    color: #478dc7;
+}
+.content ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.column {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr.bought {
+    background: rgba(0, 217, 255, 0.25);
+}
+tr.selected {
+    background: rgba(175, 38, 14, 0.25);
+}
+tr.urgent {
+    background: rgba(211, 35, 167, 0.25);
+}
+tr.normal {
+    background: rgba(70, 41, 83, 0.25);
+}
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+tr th,
+tr td {
+    padding: 1em 1em;
+}
+tr img {
+    width: 96px;
+    height: auto;
+}
+
+#form select, #form input[type="text"], #form input[type="password"], #form input[type="email"], #form input[type="tel"], #form input[type="datetime-local"], #form textarea, #form input[type="submit"] {
+    padding: 0.25em;
+    font-size: 0.825em;
+    font-family: "Noto Sans";
+}
+label.required:after {
+    content: " *";
+    color: rgb(0, 81, 255);
+}
+
+#mx {
+    height: 100px;
+    width: 100px;
+}
+
